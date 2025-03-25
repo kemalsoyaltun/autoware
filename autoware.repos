@@ -108,6 +108,10 @@ repositories:
     url: https://github.com/autowarefoundation/ros2_socketcan
     version: main
   # sensor_kit
+  sensor_kit/vehicle_a_sensor_kit_launch:
+    type: git
+    url: https://github.com/kemalsoyaltun/vehicle_a_sensor_kit_launch.git
+    version: 0.41.0
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
@@ -125,6 +129,10 @@ repositories:
     url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
     version: 0.41.0
   # vehicle
+  vehicle/vehicle_a_launch:
+    type: git
+    url: https://github.com/kemalsoyaltun/vehicle_a_launch.git
+    version: main
   vehicle/sample_vehicle_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
